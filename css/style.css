@@ -141,6 +141,8 @@ button {
   font-weight: 300;
   cursor: pointer;
   background-color: #2E4369;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
 }
 
 .tab-header:first-of-type {
@@ -149,6 +151,7 @@ button {
 
 .tab-header.selected {
   background-color: #37517E;
+  border-bottom: none;
 }
 
 .tab-content-wrapper {
